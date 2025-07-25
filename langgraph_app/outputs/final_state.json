@@ -1,0 +1,40 @@
+{
+    "repo_url": "https://github.com/devmahmud/Django-Poll-App",
+    "target_dir": "/home/abhishek.anand/Desktop/fst_generator/langgraph_app/repo",
+    "docker_image_name": "fst_sandbox_app",
+    "clone_success": true,
+    "docker_run_success": true,
+    "base_spec_extraction_success": true,
+    "selenium_test_generation_success": true,
+    "report_generation_success": true,
+    "error_message": null,
+    "clone_error": null,
+    "docker_error": null,
+    "base_spec_error": null,
+    "selenium_gen_error": null,
+    "report_gen_error": null,
+    "extracted_routes": [
+        [
+            "login",
+            "/accounts/login/"
+        ],
+        [
+            "register",
+            "/accounts/register/"
+        ],
+        [
+            "polls_list",
+            "/polls/list/"
+        ]
+    ],
+    "generated_test_scripts_paths": [
+        "/home/abhishek.anand/Desktop/fst_generator/tests/selenium/test_login.py",
+        "/home/abhishek.anand/Desktop/fst_generator/tests/selenium/test_register.py",
+        "/home/abhishek.anand/Desktop/fst_generator/tests/selenium/test_polls_list.py"
+    ],
+    "final_report_paths": [
+        "/home/abhishek.anand/Desktop/fst_generator/reports/final_report_login.md",
+        "/home/abhishek.anand/Desktop/fst_generator/reports/final_report_register.md",
+        "/home/abhishek.anand/Desktop/fst_generator/reports/final_report_polls_list.md"
+    ]
+}
